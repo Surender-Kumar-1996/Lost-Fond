@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image:linear-gradient(rgba(47, 47, 47, 0.5), rgba(47, 47, 47, 0.5)),url(../images/daylight-environment-forest-459225.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color:#e3edf7;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    margin-top: -50px;
+}
+
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+ul li{
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    margin: 0.2em;
+    border: 1px solid white;
+    border-radius: 0.4rem;
+    background-color: transparent;
+    transition: 0.6s ease;
+}
+
+ul li:last-child {
+	margin-right: 60px ;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.logo img {
+    
+    float: left;
+    width: 130px;
+    margin: 15px;
+    padding: 10px;
+	height: auto;
+	position: relative;
+	left: 50px;
+	top: -10px;
+}
+
+.logo h2 {
+	color: rgb(118, 251, 9);
+	font-weight: bold;
+	position: relative;
+		top: 40px;
+		left: -100px;
+
+}
+
+.title{
+    color: white;
+    font-family: Helvetica;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    color: white;
+    font-size: 70px;
+    letter-spacing: 0.1em;
+	word-spacing: 0.5em;
+	text-align: center;
+}
+
+.title p {
+	font-family: sans-serif;
+	color:white;
+	text-align: center;
+	font-size: 30px;
+	font-weight: lighter;
+	margin-bottom: 20px;
+}
+
+.button{
+    font-family: Helvetica;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+	border-radius: 0.4rem;
+    border: 1px solid white;
+    padding: 10px 30px;
+    margin: 10px;
+    color: white;
+	text-decoration: none;
+	font-size: x-large;
+    transition: 0.6s ease;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.follow {
+	width: inherit;
+	padding: 50px;
+	position: relative;
+        top: 600px;	
+}
+
+.follow h1{
+    color: white;
+	width: inherit;
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 25px;
+	letter-spacing: 4px;
+	padding: 2px;
+    margin-left: 700px;
+}
+
+.social-media {
+    display: flex;
+    position: relative;
+    margin-left: 630px;
+}
+
+.social-media a{
+    display: flex;
+    background-color:#e3edf7;
+    width: 75px;
+    height: 75px;
+    margin:0 15px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+    box-shadow: 6px 6px 10px -1px  rgba(0,0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,255,0.7);
+    border: 1px solid rgba(0, 0, 0, 0);
+    transition: transform 0.5s;
+    position: relative;
+    z-index: 10;
+    
+}
+
+.social-media a i{
+    font-size: 35px;
+    color:  rgb(255, 255, 255);
+    transition: transform 0.5s;
+}
+
+
+.social-media a:hover {
+    color: #3b5998;
+    background-color: rgb(182, 182, 182);
+    box-shadow: inset 4px 4px 6px -px rgba(0, 0, 0, 0.2),
+                inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                -0.5px -0.5px 0px rgba(0, 0, 0, 0.15),
+                0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+    transition: 0.6s ease;
+    border: 1px solid rgba(0, 0, 0, 0.01);
+    transform: translate(2px);
+    
+}
+
+.social-media .fa-facebook{
+    color: blue;
+}   
+
+.social-media .fa-twitter{
+    color: lightskyblue;
+} 
+
+.social-media .fa-instagram{
+    color: #ff8724;
+}
+.social-media .fa-youtube-play{
+    color: rgb(255, 0, 0);
+}
+
+.social-media .fa-whatsapp{
+    color: rgb(62, 250, 62);
+}

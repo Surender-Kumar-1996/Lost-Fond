@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login/SignUp</title>
+        <link rel="stylesheet" href="static/login.css"> 
+    </head>
+
+    <body>
+        <div class="logo">
+            <img src="images/rocket.png" />
+            <br>
+            <h2>ROCKET WORLD</h2>
+        </div>
+        <div class="main">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="found.html">Found Items</a></li>
+                <li><a href="about.html">About</a></li>	
+            </ul>
+        </div>
+        <div class="hero">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                    <button type="button" class="toggle-btn" onclick="register()">Register</button>
+                </div>
+
+                <div class="social-icons">
+                    <img src="images/google.png">
+                    <img src="images/twitter.png">
+                    <img src="images/facebook (2).png">
+                </div>
+
+                <form id="login" class="input-group login-group">
+                    <input type="text" class="input-field" placeholder="User Id" required>
+                    <input type="password" class="input-field" id="myInput" placeholder="Enter Password" required>
+                    <input type="checkbox" class="check-box1"  onclick="myFunction()"><span>Show Password</span> <br>
+                    <input type="checkbox" class="check-box"><span>Remember Password</span>
+                    <p class="forgot"><a href="forgot_password.html">Forgot Password?</a></p>
+                    <button type="submit" class="submit-btn">Log In</button>
+                </form>
+
+                <form id="register" class="input-group register-group">
+                    <input type="text" class="input-field" placeholder="User Id" required>
+                    <input type="text" class="input-field" placeholder="Aadhar No. / Pan Card" >
+                    <input type="text" class="input-field" placeholder="Mobile Number" required>
+                    <input type="password" class="input-field" id="myInput1" placeholder="Enter Password" required>
+                    <input type="checkbox" class="check-box1"  onclick="myFunction1()"><span>Show Password</span> <br>
+                    <input type="checkbox" class="check-box"><span>I agree to the Terms & Conditions</span>
+                    <button type="submit" class="submit-btn">Register</button>
+                </form>
+            </div>
+            
+        </div>
+
+        <script>
+            var x = document.getElementById("login");
+            var y = document.getElementById("register");
+            var z = document.getElementById("btn");
+            
+                        
+
+            function register()
+            {
+                x.style.left = "-120%";
+                y.style.left = "14%";
+                z.style.left = "130px";
+            }
+
+            function login()
+            {
+                x.style.left = "13%";
+                y.style.left = "120%";
+                z.style.left = "0px"
+            }
+
+            function myFunction() {
+                var p = document.getElementById("myInput");
+                if (p.type === "password") {
+                  p.type = "text";
+                } else {
+                  p.type = "password";
+                }
+              }
+
+              function myFunction1() {
+                var p = document.getElementById("myInput1");
+                if (p.type === "password") {
+                  p.type = "text";
+                } else {
+                  p.type = "password";
+                }
+              }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,58 @@
+header{
+    color:royalblue;
+    font-family:arial;
+    font-size:30px;
+    font-weight:bold;
+    text-decoration:none;
+    position:absolute;
+    top:10%;
+    left:20%;
+}
+.div1{
+    position: absolute;
+    top: 40%;
+    left:30%;
+    margin-left: 10px;
+    display: inline-block;
+    border:1px solid #424949;
+    min-width: 250PX;
+    min-height: 200PX;
+}
+.div2{
+    position: absolute;
+    top: 0%;
+    margin-left: 260px;
+    display: inline-block;
+    border:1px solid #424949;
+    min-width: 200px;
+    min-height: 235px;
+}
+.dropbtn1{
+    color:#fff;
+    background-color:#424949;
+    border:1px solid #424949;
+    font-family: 'Abril Fatface', cursive;
+    font-size:20px;
+    font-weight:lighter;
+    margin:20px 50px;
+    width:150px;
+    height:auto;
+    text-transform:uppercase;
+}
+.list1 li{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 18px;
+    padding: 4px;
+    
+}
+.list1 li a{
+    text-decoration: none;
+    color: black;
+}
+.disp{
+    display:none;
+}
+.drop:hover.drop ul{
+    display: block;
+}

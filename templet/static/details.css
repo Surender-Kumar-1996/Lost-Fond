@@ -1,0 +1,146 @@
+body {
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.menu {
+    background-color: lawngreen;
+    max-width: auto;
+    min-height: 45px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.search {
+    position: relative;
+    left: 54%;
+    top: 5%;
+}
+
+.btn {
+    position: sticky;
+    left: 70%;
+    top: 10%;
+    border-style: solid;
+    background-image: url(images/icons8-google-web-search-64.png);
+    background-color: ivory;
+    max-width: 40px;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: ivory;
+    float: right;
+    font-size: 24px;
+    margin-right: 60px;
+    margin-top: 10px;
+}
+
+.mark {
+    color: #fff;
+    font-size: 16;
+    font-weight: lighter;
+    line-height: 50px;
+    max-width: 550px;
+    max-height: auto;
+    letter-spacing: 4px;
+    padding: 10px;
+    position: relative;
+    top: 20%;
+    left: 35%;
+    padding: 20px 30px;
+    background: rgba(223, 5, 5, 0.5);
+}
+
+.head1 {
+    color: rgb(231, 238, 240);
+    text-decoration: underline;
+    margin: auto auto 40px 90px;
+}
+
+.ul_mark {
+    list-style-type: none;
+}
+
+input {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Hind', sans-serif;
+    display: inline-block;
+    line-height: 30px;
+    width: 240px;
+    height: auto;
+    position: absolute;
+    left: 55%;
+    top: auto;
+}
+
+.mark {
+    display: none;
+}
+
+.id {
+    color: #fff;
+    font-size: 16;
+    font-weight: lighter;
+    line-height: 50px;
+    max-width: 550px;
+    max-height: auto;
+    letter-spacing: 4px;
+    padding: 10px;
+    position: relative;
+    top: 20%;
+    left: 35%;
+    padding: 20px 30px;
+    background: rgba(223, 5, 5, 0.5);
+}
+
+.id {
+    display: none;
+}
+
+.driving {
+    color: #fff;
+    font-size: 16;
+    font-weight: lighter;
+    line-height: 50px;
+    max-width: 550px;
+    max-height: auto;
+    letter-spacing: 4px;
+    padding: 10px;
+    position: relative;
+    top: 20%;
+    left: 35%;
+    padding: 20px 30px;
+    background: rgba(223, 5, 5, 0.5);
+}
+
+.driving {
+    display: none;
+}
+
+.pan {
+    color: #fff;
+    font-size: 16;
+    font-weight: lighter;
+    line-height: 50px;
+    max-width: 550px;
+    max-height: auto;
+    letter-spacing: 4px;
+    padding: 10px;
+    position: relative;
+    top: 20%;
+    left: 35%;
+    padding: 20px 30px;
+    background: rgba(223, 5, 5, 0.5);
+}
+
+.head_pan {
+    color: rgb(231, 238, 240);
+    text-decoration: underline;
+    margin: auto 160px;
+}
